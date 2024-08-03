@@ -2,9 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 :root{
     /* Transparent white (paragraphs) */
@@ -21,6 +19,7 @@
 body{
     font-size: 15px;
     font-family: 'Lexend Deca';
+    align-items: center;
 }
 
 
@@ -31,7 +30,7 @@ body{
     align-items: center;
     width: 100vw;
     height: auto;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
 }
 
 
@@ -42,7 +41,7 @@ img{
 .heading{
     color: var(--light-gray);
     font-family: 'Big Shoulders Display';
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -54,8 +53,8 @@ img{
     row-gap: 1rem;
     align-items: flex-start;
     padding: 1rem;
-    width: 30%;
-    height: auto;
+    width: 60%;
+    height: 20rem;
 }
 /* paragraph */
 p{
